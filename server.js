@@ -4,7 +4,7 @@ const path = require('path');
 const nanoid = require('nanoid');
 
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 
 app.use(express.static('public'));
 app.use(express.json());
